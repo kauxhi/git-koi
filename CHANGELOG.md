@@ -10,8 +10,10 @@ follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
-- Raised the loop's frame rate from 15 to 30 frames per second, so the koi's
-  motion plays smoother on a profile README.
+- Raised the loop's frame rate from 15 to 50 frames per second, so the koi's
+  motion plays smoother on a profile README. 50 is as far as this goes: a GIF
+  frame delay is stored in hundredths of a second, so 50fps (2cs/frame) is the
+  finest step the format can show; a higher rate would round to the same delay.
 
 ## [1.0.2] - 2026-10-31
 

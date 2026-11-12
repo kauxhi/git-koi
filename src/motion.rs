@@ -5,7 +5,7 @@ use std::f64::consts::{PI, TAU};
 use crate::behavior::Behavior;
 
 /// Frames per second of every behavior's loop; GIF frame delays derive from it.
-pub const FRAMES_PER_SECOND: u32 = 30;
+pub const FRAMES_PER_SECOND: u32 = 50;
 
 const TAIL_BEND_PER_WAVE_STRENGTH: f64 = 0.45;
 const TAIL_BEND_LAG_RADIANS: f64 = 1.7;
