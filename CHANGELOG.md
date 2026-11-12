@@ -6,6 +6,13 @@ follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-11-12
+
+### Changed
+
+- Raised the loop's frame rate from 15 to 30 frames per second, so the koi's
+  motion plays smoother on a profile README.
+
 ## [1.0.2] - 2026-10-31
 
 ### Fixed
@@ -34,7 +41,8 @@ follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - The `git-koi` library: account history, koi development, behavior, motion,
   markings, rendering, and encoding.
 
-[Unreleased]: https://github.com/yalongwastaken/git-koi/compare/v1.0.2...HEAD
+[Unreleased]: https://github.com/Kaushik-MSclinical/git-koi/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/Kaushik-MSclinical/git-koi/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/yalongwastaken/git-koi/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/yalongwastaken/git-koi/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/yalongwastaken/git-koi/releases/tag/v1.0.0
